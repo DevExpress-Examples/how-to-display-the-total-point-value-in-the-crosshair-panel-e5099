@@ -5,7 +5,7 @@
 <!-- default file list end -->
 # How to display the "Total" point value in the Crosshair Panel
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5099)**
+**[[Run Online]](https://codecentral.devexpress.com/e5099/)**
 <!-- run online end -->
 
 
