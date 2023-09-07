@@ -49,12 +49,12 @@
                 </cc1:Series>
             </seriesserializable>
             <clientsideevents customdrawcrosshair="function(s, e) {
-       var summary = 0;
-	for (var i = 0; i &lt; e.crosshairElements.length; i++) {        
-         summary += e.crosshairElements[i].Point.point.values[0];
-     }   
+       		var summary = 0;
+		for (var i = 0; i &lt; e.crosshairElements.length; i++) {        
+         	summary += e.crosshairElements[i].Point.point.values[0];
+     	    }   
             e.crosshairElements[e.crosshairElements.length - 1].LabelElement.footerText = 'Total :' + summary;
-}" />
+	    }" />
         </dxchartsui:WebChartControl>
     
     </div>
