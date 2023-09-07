@@ -5,7 +5,7 @@
 <!-- default badges end -->
 <!-- default file list -->
 <!-- default file list end -->
-# How to display the "Total" point value in the Crosshair Panel
+# Chart for ASP.NET Web Forms - How to display the "Total" point value in the Crosshair Panel
 
 This example illustrates how to display the "Total" point value in the crosshair cursor panel.
 
