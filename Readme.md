@@ -4,18 +4,21 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 <!-- default file list -->
-*Files to look at*:
-
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 <!-- default file list end -->
 # How to display the "Total" point value in the Crosshair Panel
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5099/)**
-<!-- run online end -->
 
+This example illustrates how to display the "Total" point value in the crosshair cursor panel.
 
-<p>To accomplish this task, handle the client-side <a href="http://documentation.devexpress.com/#AspNet/DevExpressXtraChartsWebScriptsASPxClientWebChartControl_CustomDrawCrosshairtopic"><u>ASPxClientWebChartControl.CustomDrawCrosshair</u></a> event and include the Total value via the LabelElement.footerText property of the last crosshair panel element.</p>
+![Chart](./image/chart.png)
 
-<br/>
+To accomplish this task, handle the client-side [CustomDrawCrosshair](https://docs.devexpress.com/AspNet/js-ASPxClientWebChartControl.CustomDrawCrosshair) event and include the Total value with the `LabelElement.footerText` property of the last crosshair panel element.
+
+## Files to Review
+
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+
+## Documentation 
+
+* [Crosshair Cursor Customization](https://docs.devexpress.com/AspNet/16017/components/chart-control/concepts/end-user-interaction/crosshair-cursor/crosshair-cursor-customization?p=netframework)
 
 
